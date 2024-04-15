@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "conferences",
+  "info": {
+    "singularName": "conference",
+    "pluralName": "conferences",
+    "displayName": "speaker"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "conference_name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": false
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "food": {
+      "type": "string"
+    },
+    "hotel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
